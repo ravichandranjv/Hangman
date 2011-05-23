@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body onload="init();">
+
+    <meta name="viewport" content="width=425" /> 
+    <meta name="viewport" content="initial-scale=1" /> 
+
+<canvas id="myCanvas" width="425" height="265" tabindex="1" style="border:10px solid #00A308;">
+Your browser does not support the canvas element. Please use Google Chrome, Mozilla Firefox, Safari, Opera or IE 9.
+</canvas>
+<img id="kaleidoscope" src="kaleidoscope.jpg" style="display:none">
+
+<br>
+<button name="start" onclick = "startGame();">Play</button> 
+<input type="button" name="showword" onclick = "writeCorrectGuess();" value="Show Word"/> 
+<input type="button" name="howtoplay" onclick = "howToPlay();" value="How to play"/> 
+<input type="button" name="aboutme" onclick = "aboutMe();" value="About Me"/> 
+
+<b>     Your tries - </b>
+<input type="text" name="tries" id="numTries" value="1" readonly="true" size="2" />
+
+    <title>Hangman</title>
+<div style="position:relative; top:-50; left:25">
+    <input type="button" value=" A " onclick="A()">
+    <input type="button" value=" B " onclick="B()">
+    <input type="button" value=" C " onclick="C()">
+    <input type="button" value=" D " onclick="D()">
+    <input type="button" value=" E " onclick="E()">
+    <input type="button" value=" F " onclick="F()">
+    <input type="button" value=" G " onclick="G()">
+    <input type="button" value=" H " onclick="H()">
+    <input type="button" value=" I " onclick="I()">
+    <input type="button" value=" J " onclick="J()"><br>
+    <input type="button" value=" K " onclick="K()">
+    <input type="button" value=" L " onclick="L()">
+    <input type="button" value=" M " onclick="M()">
+    <input type="button" value=" N " onclick="N()">
+    <input type="button" value=" O " onclick="O()">
+    <input type="button" value=" P " onclick="P()">
+    <input type="button" value=" Q " onclick="Q()">
+    <input type="button" value=" R " onclick="R()">
+    <input type="button" value=" S " onclick="S()">
+    <input type="button" value=" T " onclick="T()"><br>
+    <input type="button" value=" U " onclick="U()">
+    <input type="button" value=" V " onclick="V()">
+    <input type="button" value=" W " onclick="W()">
+    <input type="button" value=" X " onclick="X()">
+    <input type="button" value=" Y " onclick="Y()">
+    <input type="button" value=" Z " onclick="Z()">
+</div>
+<br>
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a><br />This work is licensed under a <br><a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>. 
+
+<style type="text/css">
+p { color:white }
+.different-font-color { color: orange; }
+</style>
+   <script type="text/javascript" src="hangman_new.js">
+</script>
+
+
+</body>
+</html>
