@@ -1,6 +1,6 @@
 {
   "name": "Hangman",
   "tagline": "HTML5 Arcade game by Ravichandran JV",
-  "body": "### Hangman - the arcade game for excelling in spelling and vocabulary.\r\n\r\nGamers - Download either of the archive files (zip or tar) and extract the four files. If you wish to increase the word count, you could simply add more words to the Javascript array.\r\n\r\n### Author\r\n\r\nThis game was created in 2011 by @ravichandranjv as a simple example to try out the new features of HTML5 Canvas.\r\n\r\n",
+  "body": "### Hangman - the arcade game for excelling in spelling and vocabulary.\r\n\r\nGamers - Download either of the archive files (zip or tar) and extract the four files. If you wish to increase the word count, you could simply add more words to the Javascript array.\r\n\r\n### Author\r\n\r\nThis game was created in 2011 by @ravichandranjv as a simple example to try out the new features of HTML5 Canvas.\r\n\r\n### Contact\r\njv.ravichandran@gmail.com\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
